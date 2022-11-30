@@ -1,0 +1,433 @@
+body {
+    background-color: #264143;
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+
+
+/* HEADER */
+.head {
+    background-color: #2b6777;
+    animation-name: picture;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    transition: 1s;
+    grid-column: 1/-1;
+    height: 250px;
+}
+
+.head h1 {
+    margin: 0;
+    margin-left: 20px;
+    font-size: 65px;
+}
+
+.head h2 {
+    margin: 0;
+    margin-left: 20px;
+    font-size: 45px;
+}
+
+.logo img {
+    height: 100px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    margin-right: 60px;
+    color: white;
+}
+
+
+/* HEADER */
+
+
+
+
+main {
+    color: white;
+    display: grid;
+    grid-template-rows: 200px 50px 150px 500px 450px s 350px;
+    grid-template-columns: 75% 25%;
+    grid-gap: 15px;
+}
+
+
+
+
+
+/* nav-ber */
+.nav-ber {
+    background-color: rgba(172, 172, 172, 0);
+    position: sticky;
+    top: 10px;
+    grid-column: 1/-1;
+    background-color: transparent;
+}
+
+.nav-ber ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    left: -40px;
+    top: 0;
+    margin: 0 auto;
+}
+
+.nav-ber ul li a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-ber ul li ul li a {
+    font-size: 20px;
+}
+
+.nav-ber ul li {
+    background-color: #5acff0bd;
+    width: 130px;
+    height: 40px;
+    border: 1px #e9e8e8 solid;
+    float: left;
+    text-align: center;
+    align-items: center;
+    line-height: 40px;
+    padding: 1px;
+}
+
+.nav-ber ul li ul {
+    color: white;
+    position: relative;
+    top: 0px;
+    left: -43px;
+    display: none;
+}
+
+.nav-ber ul li:hover {
+
+    background-color: #06a3ff
+}
+
+.nav-ber ul li:hover>ul {
+    display: block;
+}
+
+
+
+
+/* nav-ber */
+/* BD */
+
+
+
+
+.note {
+    background-color: #5acff0;
+    border: #FFF 2px solid;
+    border-radius: 2px;
+}
+
+.note img {
+    display: flex;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+}
+
+.note h2 {
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 10px;
+    color: black;
+}
+
+.note a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    color: red;
+    margin-left: 20px;
+}
+
+.note a:hover {
+    color: #06a3ff;
+    cursor: not-allowed;
+}
+
+
+
+
+/* BD */
+/* noticeBoard */
+
+
+
+
+.main {
+
+    background-color: #53999e;
+    color: white;
+
+}
+
+.main:hover {
+    background-color: #5acff0;
+}
+
+.main img {
+    margin: 15px 15px;
+    float: left;
+}
+
+.main h3 {
+    display: flex;
+    font-size: 35px;
+    margin-top: 10px;
+    color: #fdfdfd;
+}
+
+.main ul {
+    border-radius: 5%;
+    border: 1px black solid;
+    margin-left: 160px;
+    margin-right: 40px;
+    height: 350px;
+    background-color: #c8e8d4;
+    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.582), -10px -10px 10px rgba(0, 0, 0, 0.512);
+    transition: 1s;
+}
+
+/* .main ol:hover
+{
+    box-shadow: inset 10px 10px 10px rgba(255, 255, 255, 0.582);
+    transition: .5s;
+} */
+.main ul li {
+
+    border-radius: 5px;
+    margin: 15px 25px 5px 0;
+    font-size: 18px;
+    color: black;
+    list-style-image: url("https://www2.atmos.umd.edu/~chepurin/STUFF/bullets/bullet6.gif");
+
+}
+
+.main ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.main ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #9b0101;
+    list-style: none;
+    transition: .5s;
+    font-weight: 400;
+}
+
+.main #more {
+    border: black 1px solid;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(220, 20, 60, 0.164);
+    padding: 4px;
+
+    border-radius: 10px;
+}
+
+
+
+
+
+/* noticeBoard */
+/* DOWNLOAD */
+
+
+
+
+.box {
+
+    background-color: #53999e;
+
+}
+
+.box:hover {
+    background-color: #5acff0;
+}
+
+.box img {
+    margin: 15px;
+    float: left;
+}
+
+.box h3 {
+    font-size: 2rem;
+
+}
+
+.box ul {
+    background-color: #c8e8d4;
+    border: 3px #42baff solid;
+    margin: 40px 30px 0 120px;
+    font-size: 1.35rem;
+    box-shadow: 15px 15px 25px #034b74e5;
+}
+
+.box ul li {
+    list-style-image: url("https://www2.atmos.umd.edu/~chepurin/STUFF/bullets/bullet6.gif");
+    margin-top: 10px;
+    margin-block-end: 20px;
+}
+
+.box ul li a {
+    text-decoration: none;
+    color: BLUE;
+}
+
+.box h3>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.box h3>a:hover {
+    text-decoration: none;
+    color: #000000
+}
+
+.box li>a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* DOWNLOAD */
+/* sideber */
+
+
+
+
+.sideber {
+    grid-column: 2/3;
+    grid-row: 3/6;
+    background-color: #c8e8d4;
+}
+
+.sideber-h3 {
+    background-color: #000000;
+    padding: 4px;
+    margin: 5px 5px;
+}
+
+.sideber ul li {
+    margin: 5px 0;
+    list-style-image: url("https://www2.atmos.umd.edu/~chepurin/STUFF/bullets/bullet6.gif");
+}
+
+.sideber ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.sideber ul li a:hover {
+    color: #06a3ff;
+
+}
+
+
+.sideber .hd {
+    width: 80%;
+    margin: 25px;
+}
+
+/* sideber */
+/* login */
+
+
+/* login */
+/* fotter */
+
+
+
+.foot {
+    background-color: black;
+    height: 250px;
+    grid-column: 1/-1;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.foot h2 {
+    font-size: 50px;
+    margin-top: -10px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.foot p {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 15px;
+    padding-bottom: 20px;
+
+}
+
+.foot a {
+    padding: 10px;
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.foot a:hover {
+    color: #06a3ff;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+
+.cpy {
+    font-size: 25px;
+    font-family: 'Kalam', cursive;
+}
+
+
+/* fotter */
+
+
+@keyframes picture {
+
+    0% {
+        background-image: url(cropped_image.png);
+        background-repeat: no-repeat;
+    }
+
+    25% {
+        background-image: url(cropped_image1.png);
+        background-repeat: no-repeat;
+    }
+
+    50% {
+        background-image: url(cropped_image.png);
+        background-repeat: no-repeat;
+    }
+
+    75% {
+        background-image: url(cropped_image1.png);
+        background-repeat: no-repeat;
+    }
+
+    100% {
+        background-image: url(cropped_image.png);
+        background-repeat: no-repeat;
+    }
+}
